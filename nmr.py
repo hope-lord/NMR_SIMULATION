@@ -91,7 +91,6 @@ def prob_down(dt,N,w,w1,w0=1e9):
     for i,j in zip(y[2],y[3]):
         pb.append(i**2+j**2)
     return t,pb
-from numpy import linspace
 def power_spectrum(dt,N,w,w1,w0=1e9):
     t,pb = prob_down(dt,N,w,w1,w0)
     yw = FFT(pb)
