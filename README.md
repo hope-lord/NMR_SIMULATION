@@ -1,2 +1,2 @@
-# NMR SIMULATION
+# Nuclear Magnetic Resonance SIMULATION
 NMR SIMULATION IN PYTHON-3.8.
